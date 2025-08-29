@@ -5,11 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency Hotline</title>
-    <!-- Add your CSS links here -->
+    <!-- Add CSS links here -->
+    <link rel="stylesheet" href="./index.css">
 </head>
 
-<body>
+<body class="bg-[#F5FFF6]">
 
+    <!-- Navbar -->
     <nav class="flex max-md:flex-col justify-between items-center py-6 px-15">
         <div class="flex items-center gap-2.5">
             <img class="w-[50px] h-[50px]" src="./assets/logo.png" alt="Logo" />
@@ -36,13 +38,19 @@
         </div>
     </nav>
 
+    <!-- Banner Section -->
+    <section>
+        <div
+            class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col justify-center items-center mb-12 p-5">
+            <img class="w-23 h-23 mt-5" src="./assets/logo-dark.png" alt="Dark Logo" />
+            <h3 class="hind-madurai text-[40px] font-bold text-white text-center">Emergency Service Directory</h3>
+            <p class="hind-madurai text-[20px] font-semibold text-white mb-5 text-center">
+                Government Emergency Services at Your Fingertip – A Project by<br>
+                Government of the People’s Republic of Bangladesh
+            </p>
+        </div>
+    </section>
+
 </body>
 
 </html>
-echo "# Emergency-Hotline" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/AT-Ashfak/Emergency-Hotline.git
-git push -u origin main
